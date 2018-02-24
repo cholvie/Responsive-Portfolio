@@ -8,27 +8,20 @@ html {
   min-height: 100%;
 }
 
-/* add space for fixed nav */
-
-
 main {
   margin: 80px 0;
 }
 
-/* create styles for use for all white main boxes */
-.block {;
+.block {
   background-color: #000000;
   color: #000000;
-
   padding: 30px;
   margin-bottom: 30px;
-  
 }
 
 .contactBlock {
   background-color: #e6e6e6;
 }
-
 
 .link-header {
   color: #000000;
@@ -73,112 +66,69 @@ p {
   width: 100%;
 }
 
-/* CONNECT W/ ME CSS */
+/* CONTACT*/
 .connect-header {
-  /* Typography */
   font-size: 25px;
 }
 
 .connect-photo {
-  /* Box-model */
   width: 55px;
   height: 55px;
 }
 
 #images {
-  /* Box-model */
   padding-top: 15px;
-
-  /* Typography */
   text-align: center;
 }
-/* END CONNECT W/ ME */
 
-
-/* BEGIN FOOTER */
+/* FOOTER */
 .footer {
-  /* Positioning */
   position: absolute;
   bottom: 0;
-
-  /* Box-model */
   width: 100%;
   height: 60px;
-
-  /* Visual */
   background-color: #cc3300;
 }
 
 .text-muted-footer {
-  /* Box-model */
   margin-top: 15px;
-
-  /* Typography */
   color: #fff;
 }
 
 .two-toned-footer-color {
-  /* Box-model */
   height: 6px;
   padding-top: 3px;
-
-  /* Visual */
   background-color: #ff9933;
 }
-/* END FOOTER */
-/* --- END STYLES FOR ALL PAGES --- */
 
-/* --- PAGE-SPECIFIC STYLES --- */
-/* ABOUT-ME PAGE */
 .about-me-header {
-  /* Positioning */
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #e6e6e6;
 }
 
 #about-image {
-  /* Positioning */
   float: left;
-
-  /* Box-model */
   width: 200px;
   margin: 0 20px 10px 0;
 }
-/* END ABOUT-ME PAGE */
 
-
-/* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
 }
-/* END PORTFOLIO PAGE */
 
-
-/* CONTACT FORM PAGE  */
 .form-control {
-  /* give input boxes right angles */
   border-radius: 0;
-
-  /* keep from horizontally resizing text area */
   min-width: 100%;
   max-width: 100%;
 }
 
 .submit-btn {
-  /* Box-model */
   padding: 15px 30px;
   font-size: 16px;
-  font-weight: lighter;
-
-  /* Typography */
   color: #000000;
-
-  /* Visual */
   background-color: #e6e6e6;
   border: 0;
 }
